@@ -1,0 +1,606 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "firstName": "Jessica",
+        "lastName": "Meeker",
+        "email": "jesmeeker@gmail.com",
+        "zipCodeId": 1,
+        "isStaff": true,
+        "image": ""
+      },
+      {
+        "id": 2,
+        "firstName": "Ashley",
+        "lastName": "Martino",
+        "email": "ashley_martino@gmail.com",
+        "zipCodeId": 2,
+        "isStaff": false,
+        "image": ""
+      },
+      {
+        "id": 3,
+        "firstName": "Jennifer",
+        "lastName": "Tweedall",
+        "email": "jentweedall@gmail.com",
+        "zipCodeId": 3,
+        "isStaff": true,
+        "image": ""
+      },
+      {
+        "id": 4,
+        "firstName": "Melissa",
+        "lastName": "Shelton",
+        "email": "melissa_shelton32@gmail.com",
+        "zipCodeId": 3,
+        "isStaff": false,
+        "image": ""
+      },
+      {
+        "id": 5,
+        "firstName": "Katherine",
+        "lastName": "Tate",
+        "email": "katherinetate@gmail.com",
+        "zipCodeId": 9,
+        "isStaff": true,
+        "image": ""
+      },
+      {
+        "id": 6,
+        "firstName": "Andrea",
+        "lastName": "Smith",
+        "email": "andysmith@yahoo.com",
+        "zipCodeId": 5,
+        "isStaff": false,
+        "image": ""
+      },
+      {
+        "id": 7,
+        "firstName": "Sara",
+        "lastName": "Roberts",
+        "email": "sroberts@gail.com",
+        "zipCodeId": 3,
+        "isStaff": true,
+        "image": ""
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "streetAddress": "2346 Button Boulevard",
+        "city": "Franklin",
+        "stateCode": "TN",
+        "phoneNumber": "615-220-2355",
+        "userId": 2
+      },
+      {
+        "id": 2,
+        "streetAddress": "9278934 Youngblood Terrace",
+        "city": "Franklin",
+        "stateCode": "TN",
+        "phoneNumber": "615-345-2342",
+        "userId": 4
+      },
+      {
+        "id": 3,
+        "streetAddress": "235 Logans Circle",
+        "city": "Brentwood",
+        "stateCode": "TN",
+        "phoneNumber": "615-232-0999",
+        "userId": 6
+      }
+    ],
+    "employees": [
+      {
+        "id": 1,
+        "hourlyRate": "25.00",
+        "specialtyId": 1,
+        "bio": "Owner and Operator of The Handy Ma'am International. Born and raised in South Jersey and raised in the streets by a pack of wolves, Jessica rose above all the hardships in her life to create a life for herself. As you can imagine, her time on the streets taught her how to do most everything on her own and she became passionate about helping other women do for themselves. With her love of doing and home projects, she built The Handy Ma'am to serve stay at home and single mothers who want to feel comfortable hiring help to come in their homes.",
+        "userId": 1
+      },
+      {
+        "id": 2,
+        "hourlyRate": "20.00",
+        "specialtyId": 2,
+        "bio": "Jennifer got started in home renovations projects in her personal residence and found her love of diy. She became a licensed handyman in the state of Tennessee in 2015 and has been with The Handy Ma'am since 2019.",
+        "userId": 3
+      },
+      {
+        "id": 3,
+        "hourlyRate": "18.50",
+        "specialtyId": 3,
+        "bio": "Katherine got started in home renovations projects in her personal residence and found her love of diy. She became a licensed handyman in the state of Tennessee in 2015 and has been with The Handy Ma'am since 2019.",
+        "userId": 5
+      },
+      {
+        "id": 4,
+        "hourlyRate": "16.50",
+        "specialtyId": 4,
+        "bio": "Sara has been handy her whole life. She became a homeowner in her early 20's and ended up renovating that entire house. She fell in love with perfecting the art of drywall, but also can handle any other task that comes her way.",
+        "userId": 7
+      }
+    ],
+    "serviceRequests": [
+      {
+        "id": 1,
+        "customerId": 1,
+        "desription": "Holes in drywall need to be patched and painted",
+        "specialtyId": 4,
+        "isComplete" : false,
+        "dateCompleted": "",
+        "invoiceId": 0
+      },
+      {
+        "id": 2,
+        "customerId": 2,
+        "desription": "Trim throughout house needs to be tacked, sealed, and painted.",
+        "specialtyId": 5,
+        "isComplete" : false,
+        "dateCompleted": "",
+        "invoiceId": 0
+      }
+    ],
+    "employeeRequests": [
+      {
+        "id": 1,
+        "employeeId": 1,
+        "serviceRequestId": 1
+      },
+      {
+        "id": 2,
+        "employeeId": 2,
+        "serviceRequestId": 2
+      }
+    ],
+    "specialties": [
+        {
+            "id": 1,
+            "name": "Woodworking"
+        },
+        {
+            "id": 2,
+            "name": "Project Management"
+        },
+        {
+            "id": 3,
+            "name": "Painting"
+        },
+        {
+            "id": 4,
+            "name": "Drywall"
+        },
+        {
+            "id": 5,
+            "name": "Trim"
+        }
+    ],
+    "zipCodes": [
+        {
+            "id": 1,
+            "zipCode": 37067,
+            "isServicable": true
+        },
+        {
+            "id": 2,
+            "zipCode": 37064,
+            "isServicable": true
+        },
+        {
+            "id": 3,
+            "zipCode": 37069,
+            "isServicable": true
+        },
+        {
+            "id": 4,
+            "zipCode": 37027,
+            "isServicable": true
+        },
+        {
+            "id": 5,
+            "zipCode": 37221,
+            "isServicable": true
+        },
+        {
+            "id": 6,
+            "zipCode": 37174,
+            "isServicable": true
+        },
+        {
+            "id": 7,
+            "zipCode": 37135,
+            "isServicable": true
+        },
+        {
+            "id": 7,
+            "zipCode": 37179,
+            "isServicable": true
+        },
+        {
+            "id": 8,
+            "zipCode": 37062,
+            "isServicable": true
+        },
+        {
+            "id": 9,
+            "zipCode": 37046,
+            "isServicable": true
+        },
+        {
+            "id": 10,
+            "zipCode": 37060,
+            "isServicable": true
+        },
+        {
+            "id": 11,
+            "zipCode": 37014,
+            "isServicable": true
+        },
+        {
+            "id": 12,
+            "zipCode": 38476,
+            "isServicable": true
+        },
+        {
+            "id": 13,
+            "zipCode": 37065,
+            "isServicable": true
+        },
+        {
+            "id": 14,
+            "zipCode": 37065,
+            "isServicable": true
+        }
+    ],
+    "states": [
+        {
+          "name": "Alabama",
+          "code": "AL"
+        },
+        {
+          "name": "Alaska",
+          "code": "AK"
+        },
+        {
+          "name": "Arizona",
+          "code": "AZ"
+        },
+        {
+          "name": "Arkansas",
+          "code": "AR"
+        },
+        {
+          "name": "California",
+          "code": "CA"
+        },
+        {
+          "name": "Colorado",
+          "code": "CO"
+        },
+        {
+          "name": "Connecticut",
+          "code": "CT"
+        },
+        {
+          "name": "Delaware",
+          "code": "DE"
+        },
+        {
+          "name": "Florida",
+          "code": "FL"
+        },
+        {
+          "name": "Georgia",
+          "code": "GA"
+        },
+        {
+          "name": "Hawaii",
+          "code": "HI"
+        },
+        {
+          "name": "Idaho",
+          "code": "ID"
+        },
+        {
+          "name": "Illinois",
+          "code": "IL"
+        },
+        {
+          "name": "Indiana",
+          "code": "IN"
+        },
+        {
+          "name": "Iowa",
+          "code": "IA"
+        },
+        {
+          "name": "Kansas",
+          "code": "KS"
+        },
+        {
+          "name": "Kentucky",
+          "code": "KY"
+        },
+        {
+          "name": "Louisiana",
+          "code": "LA"
+        },
+        {
+          "name": "Maine",
+          "code": "ME"
+        },
+        {
+          "name": "Maryland",
+          "code": "MD"
+        },
+        {
+          "name": "Massachusetts",
+          "code": "MA"
+        },
+        {
+          "name": "Michigan",
+          "code": "MI"
+        },
+        {
+          "name": "Minnesota",
+          "code": "MN"
+        },
+        {
+          "name": "Mississippi",
+          "code": "MS"
+        },
+        {
+          "name": "Missouri",
+          "code": "MO"
+        },
+        {
+          "name": "Montana",
+          "code": "MT"
+        },
+        {
+          "name": "Nebraska",
+          "code": "NE"
+        },
+        {
+          "name": "Nevada",
+          "code": "NV"
+        },
+        {
+          "name": "New Hampshire",
+          "code": "NH"
+        },
+        {
+          "name": "New Jersey",
+          "code": "NJ"
+        },
+        {
+          "name": "New Mexico",
+          "code": "NM"
+        },
+        {
+          "name": "New York",
+          "code": "NY"
+        },
+        {
+          "name": "North Carolina",
+          "code": "NC"
+        },
+        {
+          "name": "North Dakota",
+          "code": "ND"
+        },
+        {
+          "name": "Ohio",
+          "code": "OH"
+        },
+        {
+          "name": "Oklahoma",
+          "code": "OK"
+        },
+        {
+          "name": "Oregon",
+          "code": "OR"
+        },
+        {
+          "name": "Pennsylvania",
+          "code": "PA"
+        },
+        {
+          "name": "Rhode Island",
+          "code": "RI"
+        },
+        {
+          "name": "South Carolina",
+          "code": "SC"
+        },
+        {
+          "name": "South Dakota",
+          "code": "SD"
+        },
+        {
+          "name": "Tennessee",
+          "code": "TN"
+        },
+        {
+          "name": "Texas",
+          "code": "TX"
+        },
+        {
+          "name": "Utah",
+          "code": "UT"
+        },
+        {
+          "name": "Vermont",
+          "code": "VT"
+        },
+        {
+          "name": "Virginia",
+          "code": "VA"
+        },
+        {
+          "name": "Washington",
+          "code": "WA"
+        },
+        {
+          "name": "West Virginia",
+          "code": "WV"
+        },
+        {
+          "name": "Wisconsin",
+          "code": "WI"
+        },
+        {
+          "name": "Wyoming",
+          "code": "WY"
+        }
+    ], 
+    "reviews": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1,
+            "rating": 5,
+            "text": "Jessica was so helpful. It put my mind to ease to know I was working with a professional woman to take care of my handyman needs. Thank you so much for this service!"
+        },
+        {
+            "id": 2,
+            "customerId": 2,
+            "employeeId": 2,
+            "rating": 5,
+            "text": "Jennifer was amazing! We will definitley be using The Handy Ma'am for all of our handyman needs in the future!"
+        },
+        {
+            "id": 3,
+            "customerId": 3,
+            "employeeId": 3,
+            "rating": 5,
+            "text": "Katherine was so thorough and polite. She did the best job with painting our entire downstairs. She left the house meticulous and was very detail oriented. We can't wait to use The Handy Ma'am for our next need."
+        },
+        {
+            "id": 4,
+            "customerId": 1,
+            "employeeId": 4,
+            "rating": 5,
+            "text": "Sara was so thorough and polite. She did the best job with painting our entire downstairs. She left the house meticulous and was very detail oriented. We can't wait to use The Handy Ma'am for our next need."
+        }
+    ], 
+    "educationVideos": [
+        {
+            "id": 1,
+            "title": "How To Install Drywall A to Z",
+            "url": "https://youtu.be/VQIMaR7hWtM",
+            "categoryId": 1,
+            "description": "We're including a complete guide in this video from how to order it, how to hang it,  how to finish it, all the tools you're going to need, and of course all of my finishing tips that will make you look like a pro! Keep watching to follow along with me through this step-by-step DIY tutorial!",
+            "thumbnailImage": "https://i.ytimg.com/vi/VQIMaR7hWtM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEH-kcsd4mgQuR0koV6wYWoBus0g"
+        },
+        {
+          "id": 2,
+          "title": "How To Install Drywall A to Z",
+          "url": "https://youtu.be/VQIMaR7hWtM",
+          "categoryId": 2,
+          "description": "We're including a complete guide in this video from how to order it, how to hang it,  how to finish it, all the tools you're going to need, and of course all of my finishing tips that will make you look like a pro! Keep watching to follow along with me through this step-by-step DIY tutorial!",
+          "thumbnailImage": "https://i.ytimg.com/vi/VQIMaR7hWtM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEH-kcsd4mgQuR0koV6wYWoBus0g"
+      },
+      {
+        "id": 3,
+        "title": "How To Install Drywall A to Z",
+        "url": "https://youtu.be/VQIMaR7hWtM",
+        "categoryId": 3,
+        "description": "We're including a complete guide in this video from how to order it, how to hang it,  how to finish it, all the tools you're going to need, and of course all of my finishing tips that will make you look like a pro! Keep watching to follow along with me through this step-by-step DIY tutorial!",
+        "thumbnailImage": "https://i.ytimg.com/vi/VQIMaR7hWtM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEH-kcsd4mgQuR0koV6wYWoBus0g"
+    },
+    {
+      "id": 4,
+      "title": "How To Install Drywall A to Z",
+      "url": "https://youtu.be/VQIMaR7hWtM",
+      "categoryId": 4,
+      "description": "We're including a complete guide in this video from how to order it, how to hang it,  how to finish it, all the tools you're going to need, and of course all of my finishing tips that will make you look like a pro! Keep watching to follow along with me through this step-by-step DIY tutorial!",
+      "thumbnailImage": "https://i.ytimg.com/vi/VQIMaR7hWtM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEH-kcsd4mgQuR0koV6wYWoBus0g"
+  }
+    ], 
+    "categories": [
+        {
+            "id": 1,
+            "name": "DIY"
+        },
+        {
+            "id": 2,
+            "name": "Painting"
+        },
+        {
+            "id": 3,
+            "name": "Woodworking"
+        },
+        {
+            "id": 4,
+            "name": "Remodeling"
+        }
+    ], 
+    "specialtyCategories": [ 
+        {
+            "id": 1,
+            "categoryId": 1,
+            "specialtyId": 1
+        },
+        {
+            "id": 2,
+            "categoryId": 1,
+            "specialtyId": 4
+        },
+        {
+            "id": 3,
+            "categoryId": 1,
+            "specialtyId": 3
+        },
+        {
+          "id": 4,
+          "categoryId": 1,
+          "specialtyId": 5
+        },
+        {
+            "id": 5,
+            "categoryId": 2,
+            "specialtyId": 3
+        },
+        {
+            "id": 6,
+            "categoryId": 3,
+            "specialtyId": 1
+        },
+        {
+            "id": 7,
+            "categoryId": 3,
+            "specialtyId": 5
+        },
+        {
+            "id": 8,
+            "categoryId": 4,
+            "specialtyId": 2
+        },
+        {
+            "id": 9,
+            "categoryId": 4,
+            "specialtyId": 4
+        },
+        {
+          "id": 10,
+          "categoryId": 4,
+          "specialtyId": 3
+      },
+      {
+        "id": 11,
+        "categoryId": 4,
+        "specialtyId": 5
+    }
+    ], 
+    "invoices": [
+        {
+            "id": 1,
+            "serviceRequestId": 0,
+            "invoiceNumber": 0,
+            "billedAmount": 0,
+            "profit": 0,
+            "isPaid": false,
+            "datePaid": ""
+        }
+    ]
+  }
